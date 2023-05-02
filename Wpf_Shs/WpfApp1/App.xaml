@@ -1,0 +1,51 @@
+﻿<Application x:Class="WpfApp1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfApp1"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             StartupUri="MainWindow.xaml"
+             Startup="Application_Startup"
+    xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
+           
+    <Application.Resources>
+        <ResourceDictionary>
+      
+            <sys:Int16 x:Key="table"></sys:Int16>
+            <sys:String x:Key="W_1">100 %</sys:String>
+            <sys:String x:Key="W_2">100 %</sys:String>
+            <sys:String x:Key="W_3">100 %</sys:String>
+            <sys:String x:Key="W_4">100 %</sys:String>
+            <sys:String x:Key="W_5">100 %</sys:String>
+            <sys:String x:Key="W_6">100 %</sys:String>
+            <sys:String x:Key="W_frame">100 %</sys:String>
+            <sys:String x:Key="W_spoof">100 %</sys:String>
+            <sys:String x:Key="isNav">0</sys:String>
+            <sys:String x:Key="settings_Header">100..500 МГц</sys:String>
+            <sys:String x:Key="lang_Change">Rus</sys:String>
+            
+            
+            <sys:String x:Key="isControl">0</sys:String>
+            <sys:Int16 x:Key="isSettings"></sys:Int16>
+
+
+
+
+
+            <sys:String x:Key="W_1s">100 %</sys:String>
+            <sys:String x:Key="W_2s">100 %</sys:String>
+            <sys:String x:Key="W_3s">100 %</sys:String>
+            <sys:String x:Key="W_4s">100 %</sys:String>
+            <sys:String x:Key="W_5s">100 %</sys:String>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/LightTheme.xaml"></ResourceDictionary>
+                <ResourceDictionary 
+                   Source="datag.xaml"/>
+                <ResourceDictionary Source="/WpfApp1;component/ResourcesLang/lang.en-US.xaml" />
+                <ResourceDictionary Source="/WpfApp1;component/ResourcesLang/lang.ru-RU.xaml" />
+                <ResourceDictionary Source="Assets/Icons.xaml"></ResourceDictionary>
+                
+            </ResourceDictionary.MergedDictionaries>
+           
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

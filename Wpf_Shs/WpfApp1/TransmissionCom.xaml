@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp1.TransmissionCom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+           Background="#525151"
+        WindowStartupLocation="CenterScreen"
+        Title="Настройка" Height="130" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Row for the title -->
+            <RowDefinition Height="Auto"/>
+            <!-- Row for the combos -->
+        </Grid.RowDefinitions>
+
+        <!-- Title -->
+        <TextBlock Grid.Row="0" Foreground="White" Text="Настройка передающих коммутаторов" Margin="5" FontSize="14" />
+
+        <!-- Combos -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="5">
+            <TextBlock Foreground="White" Text="2,4" VerticalAlignment="Center" Margin="0 0 10 0"/>
+            <ComboBox x:Name="combo24_trans" SelectionChanged="combo24_trans_SelectionChanged" SelectedIndex="0" ItemsSource="{Binding sectorNumbers}" Width="100"/>
+            <TextBlock Foreground="White" Text="5,8" VerticalAlignment="Center" Margin="10 0 10 0"/>
+            <ComboBox x:Name="combo58_trans" SelectedIndex="0"  SelectionChanged="combo58_trans_SelectionChanged" ItemsSource="{Binding sectorNumbers}" Width="100"/>
+        </StackPanel>
+    </Grid>
+</Window>

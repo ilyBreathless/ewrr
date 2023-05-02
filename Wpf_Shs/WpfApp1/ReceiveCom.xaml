@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfApp1.ReceiveCom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Background="#525151"
+        WindowStartupLocation="CenterScreen"
+        Title="Приемный коммутатор" Height="130" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Row for the title -->
+            <RowDefinition Height="Auto"/>
+            <!-- Row for the combos -->
+        </Grid.RowDefinitions>
+
+        <!-- Title -->
+        <TextBlock Grid.Row="0" Foreground="White" Text="Настройка приёмных коммутаторов" Margin="5" FontSize="14" />
+
+        <!-- Combos -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="5">
+            <TextBlock Foreground="White" Text="2,4" VerticalAlignment="Center" Margin="0 0 10 0"/>
+            <ComboBox SelectionChanged="combo24_SelectionChanged"  x:Name="combo24" SelectedIndex="0" ItemsSource="{Binding sectorNumbers}" Width="100"/>
+            <TextBlock  Foreground="White" Text="5,8" VerticalAlignment="Center" Margin="10 0 10 0"/>
+            <ComboBox SelectionChanged="combo58_SelectionChanged" x:Name="combo58" SelectedIndex="0" ItemsSource="{Binding sectorNumbers}" Width="100"/>
+       
+        </StackPanel>
+        <Button Grid.Row="1" VerticalAlignment="Bottom" x:Name="freqApply_btn" Click="freqApply_btn_Click" Width="20" Margin="270,0,0,-40" Background="#2B2B2B"  Height="20">
+            <Image Source="pack://application:,,,/Images/Vector.png"></Image>
+        </Button>
+    </Grid>
+</Window>

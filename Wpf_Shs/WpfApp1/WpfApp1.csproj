@@ -1,0 +1,160 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\arrowDown.png" />
+    <None Remove="Images\arrowUp.png" />  
+    <None Remove="Images\dotTest.png" />
+    <None Remove="Images\E.png" />
+    <None Remove="Images\Ellipse 3.png" />
+    <None Remove="Images\Ellipse 4.png" />
+    <None Remove="Images\Ellipse 5.png" />
+    <None Remove="Images\Firmware\arrowblue.png" />
+    <None Remove="Images\Firmware\arrowrect.png" />
+    <None Remove="Images\Firmware\geo.png" />
+    <None Remove="Images\Firmware\warn.png" />
+    <None Remove="Images\Iconarrow.png" />
+    <None Remove="Images\icons\Rectangle 17.png" />
+    <None Remove="Images\icons\Rectangle 18.png" />
+    <None Remove="Images\icons\Rectangle 24.png" />
+    <None Remove="Images\icons\Rectangle 25.png" />
+    <None Remove="Images\icons\Rectangle 27 %281%29.png" />
+    <None Remove="Images\icons\Rectangle 27.png" />
+    <None Remove="Images\icons\РП.png" />
+    <None Remove="Images\icons\РР.png" />
+    <None Remove="Images\LOG.png" />
+    <None Remove="Images\P.png" />
+    <None Remove="Images\R.png" />
+    <None Remove="Images\rect.png" />
+    <None Remove="Images\Rectangle 15.png" />
+    <None Remove="Images\Rectangle 22.png" />
+    <None Remove="Images\Rectangle 23.png" />
+    <None Remove="Images\Rectangle 24.png" />
+    <None Remove="Images\rectatt.png" />
+    <None Remove="Images\S.png" />
+    <None Remove="Images\thdots.png" />
+    <None Remove="Images\threedot.png" />
+    <None Remove="Images\threedot2.png" />
+    <None Remove="Images\threedot3.png" />
+    <None Remove="Images\threedot_1.png" />
+    <None Remove="Images\threedot_bg.png" />
+    <None Remove="Images\Vector.png" />
+    <None Remove="Images\VectorX.png" />
+    <None Remove="Images\xs.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+  
+    <PackageReference Include="System.IO.Ports" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SHS_dll">
+      <HintPath>..\..\..\shs_dll_keysight\SHS_dll\bin\Debug\SHS_dll.dll</HintPath>
+    </Reference>
+    <Reference Include="StrArr">
+      <HintPath>..\..\..\shs_dll_keysight\DLL\StrArr.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\arrowDown.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\arrowUp.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\dotTest.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\E.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Ellipse 3.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Ellipse 4.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Ellipse 5.png" />
+    <Resource Include="Images\Firmware\arrowrect.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Firmware\geo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Firmware\warn.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Iconarrow.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\icons\Rectangle 17.png" />
+    <Resource Include="Images\icons\Rectangle 18.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\icons\Rectangle 24.png" />
+    <Resource Include="Images\icons\Rectangle 25.png" />
+    <Resource Include="Images\icons\Rectangle 27 (1).png" />
+    <Resource Include="Images\icons\Rectangle 27.png" />
+    <Resource Include="Images\icons\РП.png" />
+    <Resource Include="Images\icons\РР.png" />
+    <Resource Include="Images\LOG.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\P.png" />
+    <Resource Include="Images\R.png" />
+    <Resource Include="Images\rect.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Rectangle 15.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Rectangle 22.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Rectangle 23.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Rectangle 24.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\rectatt.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\S.png" />
+    <Resource Include="Images\thdots.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\threedot.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\threedot2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\threedot3.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\threedot_1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\threedot_bg.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Vector.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\VectorX.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\xs.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

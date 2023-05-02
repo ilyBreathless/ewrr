@@ -1,0 +1,81 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="setting">Настройки</v:String>
+    <v:String x:Key="connection">Подключение</v:String>
+
+    <v:String x:Key="connect">Подключить</v:String>
+    <v:String x:Key="disconnect">Отключить</v:String>
+
+    <v:String x:Key="without_modulation">Без модуляции</v:String>
+
+    <v:String x:Key="KFM">КФМ</v:String>
+    <v:String x:Key="LCHM">ЛЧМ</v:String>
+    <v:String x:Key="LCHM2">ЛЧМ2</v:String>
+
+
+    <v:String x:Key="txtF_1s">100 МГц</v:String>
+    <v:String x:Key="txtF_2s">500 МГц</v:String>
+    <v:String x:Key="txtF_3s">2500 МГц</v:String>
+    <v:String x:Key="txtF_4s">МГц</v:String>
+    <v:String x:Key="txtF_5s">МГц</v:String>
+
+    <v:String x:Key="txtdF_1s">12.5 кГц</v:String>
+    <v:String x:Key="txtdF_2s">12.5 кГц</v:String>
+    <v:String x:Key="txtdF_3s">12.5 кГц</v:String>
+    <v:String x:Key="txtdF_4s">12.5 кГц</v:String>
+    <v:String x:Key="txtdF_5s">12.5 кГц</v:String>
+
+    <v:String x:Key="txtF_1">МГц</v:String>
+    <v:String x:Key="txtF_2">МГц</v:String>
+    <v:String  x:Key="txtF_3">МГц</v:String>
+    <v:String  x:Key="txtF_4">МГц</v:String>
+    <v:String  x:Key="txtF_5">МГц</v:String>
+
+    <v:String  x:Key="txtdF_1">кГц</v:String>
+    <v:String x:Key="txtdF_2">кГц</v:String>
+    <v:String x:Key="txtdF_3">кГц</v:String>
+    <v:String x:Key="txtdF_4">кГц</v:String>
+    <v:String x:Key="txtdF_5">кГц</v:String>
+
+    <v:String x:Key="table_1s">100..500 МГц</v:String>
+    <v:String x:Key="table_2s">500..2500 МГц</v:String>
+    <v:String x:Key="table_3s">2500..6000 МГц</v:String>
+
+    <v:String x:Key="table_1z">430..440 МГц</v:String>
+    <v:String x:Key="table_2z">860..928 МГц</v:String>
+    <v:String x:Key="table_3z">1130..1370 МГц</v:String>
+    <v:String x:Key="table_4z">2200..2600 МГц</v:String>
+    <v:String x:Key="table_5z">5725..5850 МГц</v:String>
+
+    <v:String x:Key="power">Мощность</v:String>
+    <v:String x:Key="mHz">МГц</v:String>
+    <v:String x:Key="kHz">кГц</v:String>
+    <v:String x:Key="dBm">дБм</v:String>
+    <v:String x:Key="cE">у.е</v:String>
+    <v:String x:Key="manange">Управление</v:String>
+    <v:String x:Key="firmware">Прошивка</v:String>
+    <v:String x:Key="navigation">НАВИГАЦИЯ</v:String>
+    <v:String x:Key="spoofing">СПУФИНГ</v:String>
+    <v:String x:Key="preselector">ПРЕСЕЛЕКТОР</v:String>
+    <v:String x:Key="language">Язык</v:String>
+    <v:String x:Key="port">Порт SHS</v:String>
+    <v:String x:Key="speed">Скорость</v:String>
+    <v:String x:Key="tetta">τ изл., мс</v:String>
+    <v:String x:Key="lang_ru">Русский</v:String>
+    <v:String x:Key="lang_eng">Английский</v:String>
+    <v:String x:Key="interference_params">Параметры помехи</v:String>
+    <v:String x:Key="letter">Лит.</v:String>
+    <v:String x:Key="antenna">АНТЕННА</v:String>
+    <v:String x:Key="status">СТАТУС</v:String>
+    <v:String x:Key="scanspeed">Скорость сканирования, кГц/с</v:String>
+    <v:String x:Key="deviation">Девиация, кГц</v:String>
+    <v:String x:Key="manipulation">Манипуляция, мкс</v:String>
+
+    <v:String x:Key="freqMhz">Частота, МГц</v:String>
+    <v:String x:Key="lineWidth">Ширина полосы, кГц</v:String>
+    <v:String x:Key="powerperc">Мощность, %</v:String>
+    <v:String x:Key="type">Тип</v:String>
+    <v:String x:Key="grozaS">Гроза С</v:String>
+    <v:String x:Key="grozaZ1">Гроза Z1</v:String>
+</ResourceDictionary>

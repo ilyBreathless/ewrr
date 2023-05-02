@@ -1,0 +1,77 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="setting">Settings</v:String>
+    <v:String x:Key="connection">Connection</v:String>
+    
+    <v:String x:Key="connect">Connect</v:String>
+    <v:String x:Key="disconnect">Disconnect</v:String>
+    
+    <v:String x:Key="txtF_1s">100 MHz</v:String>
+    <v:String x:Key="txtF_2s">500 MHz</v:String>
+    <v:String x:Key="txtF_3s">2500 MHz</v:String>
+    <v:String x:Key="txtF_4s">MHz</v:String>
+    <v:String x:Key="txtF_5s">MHz</v:String>
+
+    <v:String x:Key="txtdF_1s">12.5 kHz</v:String>
+    <v:String x:Key="txtdF_2s">12.5 kHz</v:String>
+    <v:String x:Key="txtdF_3s">12.5 kHz</v:String>
+    <v:String x:Key="txtdF_4s">12.5 kHz</v:String>
+    <v:String x:Key="txtdF_5s">12.5 kHz</v:String>
+
+    <v:String x:Key="txtF_1">MHz</v:String>
+    <v:String x:Key="txtF_2">MHz</v:String>
+    <v:String  x:Key="txtF_3">MHz</v:String>
+    <v:String  x:Key="txtF_4">MHz</v:String>
+    <v:String  x:Key="txtF_5">MHz</v:String>
+    
+    <v:String x:Key="freqMhz">Frequency, MHz</v:String>
+    <v:String x:Key="lineWidth">Width of the line, kHz</v:String>
+    <v:String x:Key="powerperc">Power, %</v:String>
+    <v:String x:Key="type">Type</v:String>
+    <v:String x:Key="status">STATUS</v:String>
+    <v:String x:Key="scanspeed">Scan speed, kHz/s</v:String>
+    <v:String x:Key="deviation">Deviation, kHz</v:String>
+    <v:String x:Key="manipulation">Manipulation, mcs</v:String>
+
+    <v:String  x:Key="txtdF_1">kHz</v:String>
+    <v:String x:Key="txtdF_2">kHz</v:String>
+    <v:String x:Key="txtdF_3">kHz</v:String>
+    <v:String x:Key="txtdF_4">kHz</v:String>
+    <v:String x:Key="txtdF_5">kHz</v:String>
+
+    <v:String x:Key="table_1s">100..500 MHz</v:String>
+    <v:String x:Key="table_2s">500..2500 MHz</v:String>
+    <v:String x:Key="table_3s">2500..6000 MHz</v:String>
+
+    <v:String x:Key="table_1z">430..440 MHz</v:String>
+    <v:String x:Key="table_2z">860..928 MHz</v:String>
+    <v:String x:Key="table_3z">1130..1370 MHz</v:String>
+    <v:String x:Key="table_4z">2200..2600 MHz</v:String>
+    <v:String x:Key="table_5z">5725..5850 MHz</v:String>
+    <v:String x:Key="without_modulation">Without modulation</v:String>
+    
+    <v:String x:Key="KFM">KFM</v:String>
+    <v:String x:Key="LCHM">LCHM</v:String>
+    <v:String x:Key="LCHM2">LCHM2</v:String>
+    
+    <v:String x:Key="power">Power</v:String>
+    <v:String x:Key="mHz">MHz</v:String>
+    <v:String x:Key="kHz">kHz</v:String>
+    <v:String x:Key="dBm">dBm</v:String>
+    <v:String x:Key="cE">c.u</v:String>
+    <v:String x:Key="manange">Manage</v:String>
+    <v:String x:Key="firmware">Firmware</v:String>
+    <v:String x:Key="navigation">NAVIGATION</v:String>
+    <v:String x:Key="spoofing">SPOOFING</v:String>
+    <v:String x:Key="preselector">PRESELECTOR</v:String>
+    <v:String x:Key="language">Language</v:String>
+    <v:String x:Key="port">Port SHS</v:String>
+    <v:String x:Key="speed">Speed</v:String>
+    <v:String x:Key="tetta">τ rad., ms</v:String>
+    <v:String x:Key="lang_ru">Russian</v:String>
+    <v:String x:Key="lang_eng">English</v:String>
+    <v:String x:Key="interference_params">Interference parameters</v:String>
+    <v:String x:Key="letter">Let.</v:String>
+    <v:String x:Key="antenna">ANTENNA</v:String>
+</ResourceDictionary>

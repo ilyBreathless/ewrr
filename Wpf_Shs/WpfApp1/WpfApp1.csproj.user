@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Calibration.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CalibrationControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Firmware.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FirmwareControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GrozaSControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Grozaz1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GrozaZ1Control.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReceiveCom.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Settings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Settings_circle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Settings_nav.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Spidometr.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TransmissionCom.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Calibration.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CalibrationControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="datag.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Firmware.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FirmwareControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GrozaSControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Grozaz1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GrozaZ1Control.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReceiveCom.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ResourcesLang\lang.en-US.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ResourcesLang\lang.ru-RU.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Settings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Settings_circle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Settings_nav.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Spidometr.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\DataGrid.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TransmissionCom.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
